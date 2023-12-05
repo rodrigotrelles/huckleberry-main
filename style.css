@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding-top: 96px;
+  padding-bottom: 64px;
+  padding-inline: 24px;
+  border-bottom: 8px solid #999;
+}
+
+header p {
+  max-width: 415px;
+}
+
+.max-width-wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 120%;
+  font-weight: 800;
+}
+
+.intro-chunk h1 {
+  margin-bottom: 48px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 120%;
+  font-weight: 800;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 150%;
+  margin-bottom: 16px;
+}
+
+p + p {
+  margin-bottom: 0;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  background-color: #666;
+  height: 450px;
+  padding-top: 64px;
+}
+
+.card {
+  background-color: white;
+  padding: 8px 24px 24px;
+  border-bottom: 8px solid #999;
+}
+
+h2.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  max-width: 398px;
+  margin: 0px;
+  margin-left: -32px;
+  padding: 12px 24px;
+}
